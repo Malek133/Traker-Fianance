@@ -54,3 +54,7 @@ export function hasRequiredRole(
   }
   return false
 }
+
+export function idAdmin(user?: User) {
+  return hasRequiredRole(user as User, 'admin')
+}

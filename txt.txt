@@ -3,3 +3,5 @@ pnpm db:migrate
 pnpm db:check
 pnpm db:reset-seed
 
+after create table sql  exceute this
+
